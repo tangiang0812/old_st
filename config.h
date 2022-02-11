@@ -108,8 +108,7 @@ unsigned int tabspaces = 8;
 
 /* bg opacity */
 float alpha = 0.8;
-float alphaOffset = 0.0;
-float alphaUnfocus;
+float alphaOffset = 0.3; /* focused and unfocused windows offset */
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -220,7 +219,7 @@ ResourcePref resources[] = {
 		{ "cwscale",      FLOAT,   &cwscale },
 		{ "chscale",      FLOAT,   &chscale },
 		{ "alpha",        FLOAT,   &alpha },
-		{ "alphaOffset",  FLOAT,   &alphaOffset },
+		{ "alphaOffset",  FLOAT,   &alphaOffset }, /* focused and unfocused windows offset */
 };
 
 /*
