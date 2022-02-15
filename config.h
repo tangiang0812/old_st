@@ -107,8 +107,8 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.8;
-float alphaOffset = 0.3; /* focused and unfocused windows offset */
+float alpha = 0.85;
+float alphaOffset = 0.15; /* focused and unfocused windows offset */
 float alphaUnfocus;
 
 /* Terminal colors (16 first used in escape sequence) */
